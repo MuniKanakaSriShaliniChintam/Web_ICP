@@ -1,0 +1,56 @@
+nav.ud{
+    width: 100%;
+    height: 55px;
+    background-color:steelblue;
+    line-height: 50px;
+}
+nav.ud ul{
+    float: right;
+    margin-right: 30px;
+}
+nav.ud ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li:hover{
+    background-color:cadetblue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+span a img{
+    border-radius: 20%;
+    position:absolute;
+    TOP:200px;
+    right:50px;
+    WIDTH:300px;
+    HEIGHT:300px
+}
+
+ iframe{
+     position: relative;
+     top:450px;
+     left: 400px;
+     width: 500px ;
+     height: 400px;
+}
+span.writings{
+    position:absolute;
+    TOP:200px;
+    right:50%;
+}
+span.hey{
+    position:absolute;
+    TOP:300px;
+    right:900px;
+}
+span.ooh{
+    position:absolute;
+    TOP:400px;
+    right:500px;
+    font-family:"Palatino";
+}
+
+
