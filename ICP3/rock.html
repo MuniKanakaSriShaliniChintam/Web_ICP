@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="rock.css">
+    <script src="rock.js"></script>
+
+</head>
+<body>
+<div class="jo">
+<h1 class="jo" align="center">Rock Paper Scissor </h1>
+    <br>
+<p class="jo" align="center">Let's play a fun game.Let me remind you guy's the game once. </p>
+<p align="center"><img  src="https://thumbs.gfycat.com/WhichDisastrousAmurratsnake-max-1mb.gif"></p>
+</div>
+<br>
+<p align="center"><button type="button" onclick="restart()" class="btn btn-primary"> Restart Game</button></p>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" id="ys">Your Score:0</div>
+        <div class="col-md-6" id="cs">Computer Score:0</div>
+        </div>
+  </div>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col col-sm-4 col-md-3 col-lg-4 col-md-offset">
+<img class="po" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTreo2pk8ccBK5Sr68nN_zHMSMYy4EMmuqQmjO5RPu2zXPZIMqUXtzw7SYQ-RRHfrmvJ3U&usqp=CAU">
+            <br>
+<button  type="button" class="btn btn-primary" onclick="game('Rock')">rock</button>
+        </div>
+        <div class="col col-sm-4 col-md-3 col-lg-4 col-md-offset ">
+<img class="po" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdDsqyPMIfLsCS5y7-Oihd_hjLyVujtVPl_MScnOblOMiVE4oxY85-b0Jbwo9iywb0r8&usqp=CAU">
+<br>
+            <button  type="button" class="btn btn-primary" onclick="game('Paper')">paper</button>
+        </div>
+        <div class="col col-sm-4 col-md-3 col-lg-4 col-md-offset">
+<img class="po" src="https://pp.netclipart.com/pp/s/63-639213_danahand-scissors-rock-paper-scissors-png.png">
+            <br>
+<button type="button" class="btn btn-primary" onclick="game('Scissors')">scissor</button>
+        </div>
+
+</div>
+</div>
+  <p class="last" align="center" id="w"></p>
+</body>
+</html>

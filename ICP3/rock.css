@@ -1,0 +1,21 @@
+h1.jo {
+    color:darkblue;
+    font-family: Garamond;
+
+}
+p.jo{
+font-size: large;
+}
+img.po{
+    width: 150px;
+    height: 150px;
+}
+p.last{
+    font-size:30px;
+}
+div.col-md-6{
+    font-size:x-large;
+}
+body{
+    background-color:aliceblue;
+}
